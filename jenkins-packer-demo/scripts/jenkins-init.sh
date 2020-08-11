@@ -41,9 +41,9 @@ wget -q https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_
 
 # install packer
 cd /usr/local/bin
-wget -q https://releases.hashicorp.com/packer/0.10.2/packer_0.10.2_linux_amd64.zip
-unzip packer_0.10.2_linux_amd64.zip
+wget -q https://releases.hashicorp.com/packer/1.6.1/packer_1.6.1_linux_amd64.zip
+unzip packer_1.6.1_linux_amd64.zip
 # clean up
 apt-get clean
 rm terraform_${TERRAFORM_VERSION}_linux_amd64.zip
-rm packer_0.10.2_linux_amd64.zip
+rm packer_1.6.1_linux_amd64.zip
